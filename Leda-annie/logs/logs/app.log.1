@@ -1,0 +1,945 @@
+2021-07-12 18:31:34 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-12 18:31:34 [INFO][leda_logging] Logger werkzeug created.
+2021-07-12 18:31:34 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-12 18:31:34 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-12 18:31:34 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-12 18:31:34 [INFO][web_service] The web service has been created.
+2021-07-12 18:31:34 [INFO][web_service] Start the web service.
+2021-07-12 18:31:34 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-12 18:31:34 [INFO][_internal]  * Running on http://10.0.0.5:5000/ (Press CTRL+C to quit)
+2021-07-12 18:31:51 [INFO][_internal] 127.0.0.1 - - [12/Jul/2021 18:31:51] "GET / HTTP/1.1" 200 -
+2021-07-12 18:31:51 [INFO][_internal] 127.0.0.1 - - [12/Jul/2021 18:31:51] "GET /static/style/style.css?ver=0.1 HTTP/1.1" 200 -
+2021-07-12 18:31:51 [INFO][_internal] 127.0.0.1 - - [12/Jul/2021 18:31:51] "GET /static/download/sample.py HTTP/1.1" 200 -
+2021-07-12 18:31:51 [INFO][_internal] 127.0.0.1 - - [12/Jul/2021 18:31:51] "GET /static/logo/logo.ico HTTP/1.1" 200 -
+2021-07-12 20:17:47 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-12 20:17:47 [INFO][leda_logging] Logger werkzeug created.
+2021-07-12 20:17:47 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-12 20:17:47 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-12 20:17:47 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-12 20:17:47 [INFO][web_service] The web service has been created.
+2021-07-12 20:17:47 [INFO][web_service] Start the web service.
+2021-07-12 20:17:47 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-12 20:17:47 [INFO][_internal]  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-07-12 20:17:55 [INFO][_internal] 127.0.0.1 - - [12/Jul/2021 20:17:55] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-12 20:17:55 [INFO][_internal] 127.0.0.1 - - [12/Jul/2021 20:17:55] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-12 20:18:06 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-12 20:18:06 [ERROR][web_service] Missing image.
+2021-07-12 20:18:06 [ERROR][web_service] 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2021-07-12 20:18:06 [INFO][_internal] 127.0.0.1 - - [12/Jul/2021 20:18:06] "[31m[1mPOST /leda/uploading HTTP/1.1[0m" 400 -
+2021-07-12 20:18:06 [INFO][_internal] 127.0.0.1 - - [12/Jul/2021 20:18:06] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-12 20:18:25 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-12 20:18:25 [INFO][web_service] Image file saved: "logs/images/210712201825.jpg".
+2021-07-12 20:18:25 [INFO][web_service] Image file saved: "logs/results/210712201825.jpg".
+2021-07-12 20:18:25 [INFO][web_service] The results of "210712201825.jpg" are ["successfully", "called", "the", "kernel"]
+2021-07-12 20:18:25 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210706065230a.jpg".
+2021-07-12 20:18:25 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210706065230b.jpg".
+2021-07-12 20:18:25 [INFO][web_service] Image file saved: "leda/pages/static/temp/210712201825a.jpg".
+2021-07-12 20:18:25 [INFO][web_service] Image file saved: "leda/pages/static/temp/210712201825b.jpg".
+2021-07-12 20:18:25 [INFO][_internal] 127.0.0.1 - - [12/Jul/2021 20:18:25] "POST /leda/uploading HTTP/1.1" 200 -
+2021-07-12 20:18:25 [INFO][_internal] 127.0.0.1 - - [12/Jul/2021 20:18:25] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-12 20:18:25 [INFO][_internal] 127.0.0.1 - - [12/Jul/2021 20:18:25] "GET /static/temp/210712201825b.jpg HTTP/1.1" 200 -
+2021-07-12 20:18:25 [INFO][_internal] 127.0.0.1 - - [12/Jul/2021 20:18:25] "GET /static/temp/210712201825a.jpg HTTP/1.1" 200 -
+2021-07-15 20:37:08 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-15 20:37:08 [INFO][leda_logging] Logger werkzeug created.
+2021-07-15 20:37:08 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-15 20:37:08 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-15 20:37:08 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-15 20:37:08 [INFO][web_service] The web service has been created.
+2021-07-15 20:37:08 [INFO][web_service] Start the web service.
+2021-07-15 20:37:08 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-15 20:37:08 [INFO][_internal]  * Running on http://10.0.0.5:5000/ (Press CTRL+C to quit)
+2021-07-15 20:37:23 [INFO][_internal] 127.0.0.1 - - [15/Jul/2021 20:37:23] "GET / HTTP/1.1" 200 -
+2021-07-15 20:37:23 [INFO][_internal] 127.0.0.1 - - [15/Jul/2021 20:37:23] "GET /static/style/style.css?ver=0.1 HTTP/1.1" 200 -
+2021-07-15 20:37:23 [INFO][_internal] 127.0.0.1 - - [15/Jul/2021 20:37:23] "GET /static/download/sample.py HTTP/1.1" 200 -
+2021-07-15 20:37:24 [INFO][_internal] 127.0.0.1 - - [15/Jul/2021 20:37:24] "GET /static/logo/logo.ico HTTP/1.1" 200 -
+2021-07-15 20:37:29 [INFO][_internal] 127.0.0.1 - - [15/Jul/2021 20:37:29] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-15 20:37:29 [INFO][_internal] 127.0.0.1 - - [15/Jul/2021 20:37:29] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-15 20:37:35 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-15 20:37:35 [INFO][web_service] Image file saved: "logs/images/210715203735.jpg".
+2021-07-15 20:37:35 [INFO][web_service] Image file saved: "logs/results/210715203735.jpg".
+2021-07-15 20:37:35 [INFO][web_service] The results of "210715203735.jpg" are ["successfully", "called", "the", "kernel"]
+2021-07-15 20:37:35 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210712201825a.jpg".
+2021-07-15 20:37:35 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210712201825b.jpg".
+2021-07-15 20:37:35 [INFO][web_service] Image file saved: "leda/pages/static/temp/210715203735a.jpg".
+2021-07-15 20:37:35 [INFO][web_service] Image file saved: "leda/pages/static/temp/210715203735b.jpg".
+2021-07-15 20:37:35 [INFO][_internal] 127.0.0.1 - - [15/Jul/2021 20:37:35] "POST /leda/uploading HTTP/1.1" 200 -
+2021-07-15 20:37:35 [INFO][_internal] 127.0.0.1 - - [15/Jul/2021 20:37:35] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-15 20:37:35 [INFO][_internal] 127.0.0.1 - - [15/Jul/2021 20:37:35] "GET /static/temp/210715203735a.jpg HTTP/1.1" 200 -
+2021-07-15 20:37:35 [INFO][_internal] 127.0.0.1 - - [15/Jul/2021 20:37:35] "GET /static/temp/210715203735b.jpg HTTP/1.1" 200 -
+2021-07-15 20:37:39 [INFO][_internal] 127.0.0.1 - - [15/Jul/2021 20:37:39] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-15 20:37:53 [INFO][_internal] 127.0.0.1 - - [15/Jul/2021 20:37:53] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-15 20:37:53 [INFO][_internal] 127.0.0.1 - - [15/Jul/2021 20:37:53] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-15 20:41:16 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-15 20:41:16 [ERROR][web_service] Missing image.
+2021-07-15 20:41:16 [ERROR][web_service] 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2021-07-15 20:41:16 [INFO][_internal] 127.0.0.1 - - [15/Jul/2021 20:41:16] "[31m[1mPOST /leda/uploading HTTP/1.1[0m" 400 -
+2021-07-15 20:41:16 [INFO][_internal] 127.0.0.1 - - [15/Jul/2021 20:41:16] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-15 20:43:22 [INFO][_internal] 127.0.0.1 - - [15/Jul/2021 20:43:22] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-16 15:59:48 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-16 15:59:48 [INFO][leda_logging] Logger werkzeug created.
+2021-07-16 15:59:48 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-16 15:59:48 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-16 15:59:48 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-16 15:59:48 [INFO][web_service] The web service has been created.
+2021-07-16 15:59:48 [INFO][web_service] Start the web service.
+2021-07-16 15:59:48 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-16 15:59:48 [INFO][_internal]  * Running on http://10.0.0.5:5000/ (Press CTRL+C to quit)
+2021-07-16 15:59:53 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 15:59:53] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-16 15:59:53 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 15:59:53] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-16 15:59:53 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 15:59:53] "GET /static/logo/logo.ico HTTP/1.1" 200 -
+2021-07-16 15:59:59 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-16 15:59:59 [INFO][web_service] Image file saved: "logs/images/210716155959.jpg".
+2021-07-16 15:59:59 [INFO][web_service] Image file saved: "logs/results/210716155959.jpg".
+2021-07-16 15:59:59 [INFO][web_service] The results of "210716155959.jpg" are ["successfully", "called", "the", "kernel"]
+2021-07-16 15:59:59 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210715203735a.jpg".
+2021-07-16 15:59:59 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210715203735b.jpg".
+2021-07-16 15:59:59 [INFO][web_service] Image file saved: "leda/pages/static/temp/210716155959a.jpg".
+2021-07-16 15:59:59 [INFO][web_service] Image file saved: "leda/pages/static/temp/210716155959b.jpg".
+2021-07-16 15:59:59 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 15:59:59] "POST /leda/uploading HTTP/1.1" 200 -
+2021-07-16 15:59:59 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 15:59:59] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-16 15:59:59 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 15:59:59] "GET /static/temp/210716155959a.jpg HTTP/1.1" 200 -
+2021-07-16 15:59:59 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 15:59:59] "GET /static/temp/210716155959b.jpg HTTP/1.1" 200 -
+2021-07-16 16:00:02 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:00:02] "GET / HTTP/1.1" 200 -
+2021-07-16 16:00:02 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:00:02] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-16 16:00:03 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:00:03] "GET /static/download/sample.py HTTP/1.1" 200 -
+2021-07-16 16:14:04 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:14:04] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-16 16:14:04 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:14:04] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-16 16:14:10 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-16 16:14:10 [INFO][web_service] Image file saved: "logs/images/210716161410.jpg".
+2021-07-16 16:14:10 [INFO][web_service] Image file saved: "logs/results/210716161410.jpg".
+2021-07-16 16:14:10 [INFO][web_service] The results of "210716161410.jpg" are ["successfully", "called", "the", "kernel"]
+2021-07-16 16:14:10 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210716155959a.jpg".
+2021-07-16 16:14:10 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210716155959b.jpg".
+2021-07-16 16:14:10 [INFO][web_service] Image file saved: "leda/pages/static/temp/210716161410a.jpg".
+2021-07-16 16:14:10 [INFO][web_service] Image file saved: "leda/pages/static/temp/210716161410b.jpg".
+2021-07-16 16:14:10 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:14:10] "POST /leda/uploading HTTP/1.1" 200 -
+2021-07-16 16:14:10 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:14:10] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-16 16:14:10 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:14:10] "GET /static/temp/210716161410b.jpg HTTP/1.1" 200 -
+2021-07-16 16:14:10 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:14:10] "GET /static/temp/210716161410a.jpg HTTP/1.1" 200 -
+2021-07-16 16:14:24 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:14:24] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-16 16:14:33 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-16 16:14:33 [INFO][web_service] Image file saved: "logs/images/210716161433.jpg".
+2021-07-16 16:14:33 [INFO][web_service] Image file saved: "logs/results/210716161433.jpg".
+2021-07-16 16:14:33 [INFO][web_service] The results of "210716161433.jpg" are ["successfully", "called", "the", "kernel"]
+2021-07-16 16:14:33 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210716161410a.jpg".
+2021-07-16 16:14:33 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210716161410b.jpg".
+2021-07-16 16:14:33 [INFO][web_service] Image file saved: "leda/pages/static/temp/210716161433a.jpg".
+2021-07-16 16:14:33 [INFO][web_service] Image file saved: "leda/pages/static/temp/210716161433b.jpg".
+2021-07-16 16:14:33 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:14:33] "POST /leda/uploading HTTP/1.1" 200 -
+2021-07-16 16:14:33 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:14:33] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-16 16:14:34 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:14:34] "GET /static/temp/210716161433a.jpg HTTP/1.1" 200 -
+2021-07-16 16:14:34 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:14:34] "GET /static/temp/210716161433b.jpg HTTP/1.1" 200 -
+2021-07-16 16:14:40 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:14:40] "GET / HTTP/1.1" 200 -
+2021-07-16 16:14:40 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:14:40] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-16 16:14:40 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:14:40] "GET /static/download/sample.py HTTP/1.1" 200 -
+2021-07-16 16:14:42 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:14:42] "GET /static/download/sample.py HTTP/1.1" 200 -
+2021-07-16 16:18:51 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:18:51] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-16 16:22:10 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:22:10] "GET /static/download/sample.py HTTP/1.1" 200 -
+2021-07-16 16:22:10 [ERROR][web_service] 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2021-07-16 16:22:10 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:22:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-07-16 16:22:17 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:22:17] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-16 16:22:18 [INFO][_internal] 127.0.0.1 - - [16/Jul/2021 16:22:18] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-19 20:02:43 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-19 20:02:43 [INFO][leda_logging] Logger werkzeug created.
+2021-07-19 20:02:43 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-19 20:02:43 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-19 20:02:43 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-19 20:02:43 [INFO][web_service] The web service has been created.
+2021-07-19 20:02:43 [INFO][web_service] Start the web service.
+2021-07-19 20:02:43 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-19 20:02:43 [INFO][_internal]  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-07-19 20:02:52 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:02:52] "GET / HTTP/1.1" 200 -
+2021-07-19 20:02:52 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:02:52] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-19 20:02:52 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:02:52] "GET /static/download/sample.py HTTP/1.1" 200 -
+2021-07-19 20:02:53 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:02:53] "GET / HTTP/1.1" 200 -
+2021-07-19 20:02:53 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:02:53] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-19 20:02:53 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:02:53] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-19 20:02:54 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:02:54] "GET /static/logo/logo.ico HTTP/1.1" 200 -
+2021-07-19 20:02:54 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:02:54] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-19 20:02:55 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:02:55] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-19 20:03:00 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-19 20:03:00 [INFO][web_service] Image file saved: "logs/images/210719200300.jpg".
+2021-07-19 20:03:00 [INFO][web_service] Image file saved: "logs/results/210719200300.jpg".
+2021-07-19 20:03:00 [INFO][web_service] The results of "210719200300.jpg" are ["successfully", "called", "the", "kernel"]
+2021-07-19 20:03:00 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210716161433a.jpg".
+2021-07-19 20:03:00 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210716161433b.jpg".
+2021-07-19 20:03:00 [INFO][web_service] Image file saved: "leda/pages/static/temp/210719200300a.jpg".
+2021-07-19 20:03:00 [INFO][web_service] Image file saved: "leda/pages/static/temp/210719200300b.jpg".
+2021-07-19 20:03:00 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:03:00] "POST /leda/uploading HTTP/1.1" 200 -
+2021-07-19 20:03:00 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:03:00] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-19 20:03:01 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:03:01] "GET /static/temp/210719200300a.jpg HTTP/1.1" 200 -
+2021-07-19 20:03:01 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:03:01] "GET /static/temp/210719200300b.jpg HTTP/1.1" 200 -
+2021-07-19 20:14:55 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:14:55] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-19 20:15:00 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:15:00] "GET / HTTP/1.1" 200 -
+2021-07-19 20:15:00 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:15:00] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-19 20:15:00 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:15:00] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-19 20:15:00 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:15:00] "GET /static/logo/logo.ico HTTP/1.1" 200 -
+2021-07-19 20:23:21 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:23:21] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-19 20:23:21 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:23:21] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-19 20:23:27 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-19 20:23:27 [INFO][web_service] Image file saved: "logs/images/210719202327.jpg".
+2021-07-19 20:23:27 [INFO][web_service] Image file saved: "logs/results/210719202327.jpg".
+2021-07-19 20:23:27 [INFO][web_service] The results of "210719202327.jpg" are ["successfully", "called", "the", "kernel"]
+2021-07-19 20:23:27 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210719200300a.jpg".
+2021-07-19 20:23:27 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210719200300b.jpg".
+2021-07-19 20:23:27 [INFO][web_service] Image file saved: "leda/pages/static/temp/210719202327a.jpg".
+2021-07-19 20:23:27 [INFO][web_service] Image file saved: "leda/pages/static/temp/210719202327b.jpg".
+2021-07-19 20:23:27 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:23:27] "POST /leda/uploading HTTP/1.1" 200 -
+2021-07-19 20:23:27 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:23:27] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-19 20:23:27 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:23:27] "GET /static/temp/210719202327a.jpg HTTP/1.1" 200 -
+2021-07-19 20:23:27 [INFO][_internal] 127.0.0.1 - - [19/Jul/2021 20:23:27] "GET /static/temp/210719202327b.jpg HTTP/1.1" 200 -
+2021-07-22 15:12:54 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-22 15:12:54 [INFO][leda_logging] Logger werkzeug created.
+2021-07-22 15:12:54 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-22 15:12:54 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-22 15:12:54 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-22 15:12:54 [INFO][web_service] The web service has been created.
+2021-07-22 15:12:54 [INFO][web_service] Start the web service.
+2021-07-22 15:12:54 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-22 15:12:54 [INFO][_internal]  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-07-22 15:15:50 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-22 15:15:50 [INFO][web_service] Image file saved: "logs/images/210722151550.jpg".
+2021-07-22 15:15:50 [INFO][web_service] Image file saved: "logs/results/210722151550.jpg".
+2021-07-22 15:15:50 [INFO][web_service] The results of "210722151550.jpg" are ["successfully", "called", "the", "kernel"]
+2021-07-22 15:15:50 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210719202327a.jpg".
+2021-07-22 15:15:50 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210719202327b.jpg".
+2021-07-22 15:15:50 [INFO][web_service] Image file saved: "leda/pages/static/temp/210722151550a.jpg".
+2021-07-22 15:15:50 [INFO][web_service] Image file saved: "leda/pages/static/temp/210722151550b.jpg".
+2021-07-22 15:15:50 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 15:15:50] "POST /leda/uploading HTTP/1.1" 200 -
+2021-07-22 15:15:50 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 15:15:50] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-22 15:15:50 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 15:15:50] "GET /static/temp/210722151550a.jpg HTTP/1.1" 200 -
+2021-07-22 15:15:50 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 15:15:50] "GET /static/temp/210722151550b.jpg HTTP/1.1" 200 -
+2021-07-22 15:15:51 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 15:15:51] "GET /static/logo/logo.ico HTTP/1.1" 200 -
+2021-07-22 15:41:29 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-22 15:41:29 [INFO][web_service] Image file saved: "logs/images/210722154129.jpg".
+2021-07-22 15:41:29 [INFO][web_service] Image file saved: "logs/results/210722154129.jpg".
+2021-07-22 15:41:29 [INFO][web_service] The results of "210722154129.jpg" are ["successfully", "called", "the", "kernel"]
+2021-07-22 15:41:29 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210722151550a.jpg".
+2021-07-22 15:41:29 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210722151550b.jpg".
+2021-07-22 15:41:29 [INFO][web_service] Image file saved: "leda/pages/static/temp/210722154129a.jpg".
+2021-07-22 15:41:29 [INFO][web_service] Image file saved: "leda/pages/static/temp/210722154129b.jpg".
+2021-07-22 15:41:29 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 15:41:29] "POST /leda/uploading HTTP/1.1" 200 -
+2021-07-22 15:41:29 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 15:41:29] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-22 15:41:29 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 15:41:29] "GET /static/temp/210722154129a.jpg HTTP/1.1" 200 -
+2021-07-22 15:41:29 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 15:41:29] "GET /static/temp/210722154129b.jpg HTTP/1.1" 200 -
+2021-07-22 15:41:30 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 15:41:30] "GET /static/logo/logo.ico HTTP/1.1" 200 -
+2021-07-22 15:41:30 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 15:41:30] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-22 15:41:30 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 15:41:30] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-22 15:41:32 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 15:41:32] "GET / HTTP/1.1" 200 -
+2021-07-22 15:41:32 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 15:41:32] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-22 15:41:32 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 15:41:32] "GET /static/download/sample.py HTTP/1.1" 200 -
+2021-07-22 15:41:35 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 15:41:35] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-22 15:41:35 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 15:41:35] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-22 17:11:56 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:11:56] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-22 17:11:56 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:11:56] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-22 17:12:20 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:12:20] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-22 17:12:20 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:12:20] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-22 17:12:28 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:12:28] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-22 17:12:28 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:12:28] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-22 17:12:58 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:12:58] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-22 17:12:58 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:12:58] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-22 17:14:21 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:14:21] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-22 17:14:21 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:14:21] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-22 17:15:31 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:15:31] "GET / HTTP/1.1" 200 -
+2021-07-22 17:15:31 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:15:31] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-22 17:15:32 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:15:32] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-22 17:15:32 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:15:32] "GET /static/logo/logo.ico HTTP/1.1" 200 -
+2021-07-22 17:15:33 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:15:33] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-22 17:15:33 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:15:33] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-22 17:17:28 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-22 17:17:28 [INFO][web_service] Image file saved: "logs/images/210722171728.jpg".
+2021-07-22 17:17:28 [INFO][web_service] Image file saved: "logs/results/210722171728.jpg".
+2021-07-22 17:17:28 [INFO][web_service] The results of "210722171728.jpg" are ["successfully", "called", "the", "kernel"]
+2021-07-22 17:17:28 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210722154129a.jpg".
+2021-07-22 17:17:28 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210722154129b.jpg".
+2021-07-22 17:17:28 [INFO][web_service] Image file saved: "leda/pages/static/temp/210722171728a.jpg".
+2021-07-22 17:17:28 [INFO][web_service] Image file saved: "leda/pages/static/temp/210722171728b.jpg".
+2021-07-22 17:17:28 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:17:28] "POST /leda/uploading HTTP/1.1" 200 -
+2021-07-22 17:17:28 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:17:28] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-22 17:17:28 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:17:28] "GET /static/temp/210722171728a.jpg HTTP/1.1" 200 -
+2021-07-22 17:17:29 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:17:29] "GET /static/temp/210722171728b.jpg HTTP/1.1" 200 -
+2021-07-22 17:17:32 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:17:32] "GET / HTTP/1.1" 200 -
+2021-07-22 17:17:32 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:17:32] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-22 17:17:32 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:17:32] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-22 17:20:39 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:20:39] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-22 17:20:39 [INFO][_internal] 127.0.0.1 - - [22/Jul/2021 17:20:39] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-25 15:13:51 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-25 15:13:51 [INFO][leda_logging] Logger werkzeug created.
+2021-07-25 15:13:51 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-25 15:13:51 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-25 15:13:51 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-25 15:13:51 [INFO][web_service] The web service has been created.
+2021-07-25 15:13:51 [INFO][web_service] Start the web service.
+2021-07-25 15:13:51 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-25 15:13:51 [INFO][_internal]  * Running on http://192.168.239.175:5000/ (Press CTRL+C to quit)
+2021-07-25 15:14:07 [INFO][_internal] 127.0.0.1 - - [25/Jul/2021 15:14:07] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-25 15:14:07 [INFO][_internal] 127.0.0.1 - - [25/Jul/2021 15:14:07] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-25 15:14:36 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-25 15:14:36 [INFO][web_service] Delete old log file: "logs/images/210712201825.jpg".
+2021-07-25 15:14:36 [INFO][web_service] Image file saved: "logs/images/210725151436.jpg".
+2021-07-25 15:14:36 [INFO][web_service] Delete old log file: "logs/results/210712201825.jpg".
+2021-07-25 15:14:36 [INFO][web_service] Image file saved: "logs/results/210725151436.jpg".
+2021-07-25 15:14:36 [INFO][web_service] The results of "210725151436.jpg" are ["successfully", "called", "the", "kernel"]
+2021-07-25 15:14:36 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210722171728a.jpg".
+2021-07-25 15:14:36 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210722171728b.jpg".
+2021-07-25 15:14:36 [INFO][web_service] Image file saved: "leda/pages/static/temp/210725151436a.jpg".
+2021-07-25 15:14:36 [INFO][web_service] Image file saved: "leda/pages/static/temp/210725151436b.jpg".
+2021-07-25 15:14:36 [INFO][_internal] 127.0.0.1 - - [25/Jul/2021 15:14:36] "POST /leda/uploading HTTP/1.1" 200 -
+2021-07-25 15:14:36 [INFO][_internal] 127.0.0.1 - - [25/Jul/2021 15:14:36] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-25 15:14:37 [INFO][_internal] 127.0.0.1 - - [25/Jul/2021 15:14:37] "GET /static/temp/210725151436b.jpg HTTP/1.1" 200 -
+2021-07-25 15:14:37 [INFO][_internal] 127.0.0.1 - - [25/Jul/2021 15:14:37] "GET /static/temp/210725151436a.jpg HTTP/1.1" 200 -
+2021-07-25 17:57:11 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-25 17:57:48 [INFO][_internal] 127.0.0.1 - - [25/Jul/2021 17:57:48] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-25 17:57:49 [INFO][_internal] 127.0.0.1 - - [25/Jul/2021 17:57:49] "GET / HTTP/1.1" 200 -
+2021-07-25 17:58:03 [INFO][_internal] 127.0.0.1 - - [25/Jul/2021 17:58:03] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-25 17:58:03 [INFO][web_service] Delete old log file: "logs/images/210715203735.jpg".
+2021-07-25 17:58:03 [INFO][web_service] Image file saved: "logs/images/210725175803.jpg".
+2021-07-25 17:58:03 [INFO][web_service] Delete old log file: "logs/results/210715203735.jpg".
+2021-07-25 17:58:03 [INFO][web_service] Image file saved: "logs/results/210725175803.jpg".
+2021-07-25 17:58:03 [INFO][web_service] The results of "210725175803.jpg" are ["successfully", "called", "the", "kernel"]
+2021-07-25 17:58:03 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210725151436a.jpg".
+2021-07-25 17:58:03 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210725151436b.jpg".
+2021-07-25 17:58:03 [INFO][web_service] Image file saved: "leda/pages/static/temp/210725175803a.jpg".
+2021-07-25 17:58:03 [INFO][web_service] Image file saved: "leda/pages/static/temp/210725175803b.jpg".
+2021-07-25 17:58:03 [INFO][_internal] 127.0.0.1 - - [25/Jul/2021 17:58:03] "POST /leda/uploading HTTP/1.1" 200 -
+2021-07-25 17:58:03 [INFO][_internal] 127.0.0.1 - - [25/Jul/2021 17:58:03] "GET /static/download/sample.py HTTP/1.1" 200 -
+2021-07-25 17:58:04 [INFO][_internal] 127.0.0.1 - - [25/Jul/2021 17:58:04] "GET /static/logo/logo.ico HTTP/1.1" 200 -
+2021-07-25 17:58:41 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-25 17:58:41 [INFO][leda_logging] Logger werkzeug created.
+2021-07-25 17:58:41 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-25 17:58:41 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-25 17:58:41 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-25 17:58:41 [INFO][web_service] The web service has been created.
+2021-07-25 17:58:41 [INFO][web_service] Start the web service.
+2021-07-25 17:58:41 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-25 17:58:41 [INFO][_internal]  * Running on http://192.168.239.175:5000/ (Press CTRL+C to quit)
+2021-07-25 17:58:47 [INFO][_internal] 127.0.0.1 - - [25/Jul/2021 17:58:47] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-25 17:58:47 [INFO][_internal] 127.0.0.1 - - [25/Jul/2021 17:58:47] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-25 17:58:57 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-25 17:58:57 [INFO][web_service] Delete old log file: "logs/images/210716155959.jpg".
+2021-07-25 17:58:57 [INFO][web_service] Image file saved: "logs/images/210725175857.jpg".
+2021-07-25 17:58:57 [ERROR][web_service] 500 Internal Server Error: Traceback (most recent call last):
+  File "C:\Users\Sherlock Holmes\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sherlock Holmes\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\ledawork\leda.web-service.students\leda\web_service.py", line 87, in inference
+    crop_label_position.crop_label(xml_file, image_bytes, "/leda.web-servicices.students/results/")
+  File "C:\ledawork\leda.web-service.students\leda\kernel\crop_label_position.py", line 26, in crop_label
+    img = cv2.imread(img_file)
+TypeError: Can't convert object of type 'bytes' to 'str' for 'filename'
+2021-07-25 17:58:57 [INFO][_internal] 127.0.0.1 - - [25/Jul/2021 17:58:57] "[35m[1mPOST /leda/uploading HTTP/1.1[0m" 500 -
+2021-07-25 17:58:57 [INFO][_internal] 127.0.0.1 - - [25/Jul/2021 17:58:57] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-26 20:13:29 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-26 20:13:29 [INFO][leda_logging] Logger werkzeug created.
+2021-07-26 20:13:29 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-26 20:13:29 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-26 20:13:29 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-26 20:13:29 [INFO][web_service] The web service has been created.
+2021-07-26 20:13:29 [INFO][web_service] Start the web service.
+2021-07-26 20:13:29 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-26 20:13:29 [INFO][_internal]  * Running on http://192.168.0.20:5000/ (Press CTRL+C to quit)
+2021-07-26 20:25:31 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-26 20:25:31 [INFO][web_service] Delete old log file: "logs/images/210716161410.jpg".
+2021-07-26 20:25:31 [INFO][web_service] Image file saved: "logs/images/210726202531.jpg".
+2021-07-26 20:25:31 [ERROR][web_service] 500 Internal Server Error: Traceback (most recent call last):
+  File "C:\Users\Sherlock Holmes\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sherlock Holmes\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\ledawork\leda.web-service.students\leda\web_service.py", line 87, in inference
+    crop_label_position.crop_label(xml_file, image_bytes, "/leda.web-servicices.students/results/")
+  File "C:\ledawork\leda.web-service.students\leda\kernel\crop_label_position.py", line 26, in crop_label
+    img = cv2.imread(img_file)
+TypeError: Can't convert object of type 'bytes' to 'str' for 'filename'
+2021-07-26 20:25:31 [INFO][_internal] 127.0.0.1 - - [26/Jul/2021 20:25:31] "[35m[1mPOST /leda/uploading HTTP/1.1[0m" 500 -
+2021-07-26 20:25:31 [INFO][_internal] 127.0.0.1 - - [26/Jul/2021 20:25:31] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-26 20:25:31 [INFO][_internal] 127.0.0.1 - - [26/Jul/2021 20:25:31] "GET /static/logo/logo.ico HTTP/1.1" 200 -
+2021-07-26 20:25:33 [INFO][_internal] 127.0.0.1 - - [26/Jul/2021 20:25:33] "GET / HTTP/1.1" 200 -
+2021-07-26 20:25:33 [INFO][_internal] 127.0.0.1 - - [26/Jul/2021 20:25:33] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-26 20:25:33 [INFO][_internal] 127.0.0.1 - - [26/Jul/2021 20:25:33] "GET /static/download/sample.py HTTP/1.1" 200 -
+2021-07-26 20:25:35 [INFO][_internal] 127.0.0.1 - - [26/Jul/2021 20:25:35] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-26 20:25:35 [INFO][_internal] 127.0.0.1 - - [26/Jul/2021 20:25:35] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-26 20:25:44 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-26 20:25:44 [INFO][web_service] Delete old log file: "logs/images/210716161433.jpg".
+2021-07-26 20:25:44 [INFO][web_service] Image file saved: "logs/images/210726202544.jpg".
+2021-07-26 20:25:44 [ERROR][web_service] 500 Internal Server Error: Traceback (most recent call last):
+  File "C:\Users\Sherlock Holmes\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sherlock Holmes\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\ledawork\leda.web-service.students\leda\web_service.py", line 87, in inference
+    crop_label_position.crop_label(xml_file, image_bytes, "/leda.web-servicices.students/results/")
+  File "C:\ledawork\leda.web-service.students\leda\kernel\crop_label_position.py", line 26, in crop_label
+    img = cv2.imread(img_file)
+TypeError: Can't convert object of type 'bytes' to 'str' for 'filename'
+2021-07-26 20:25:44 [INFO][_internal] 127.0.0.1 - - [26/Jul/2021 20:25:44] "[35m[1mPOST /leda/uploading HTTP/1.1[0m" 500 -
+2021-07-26 20:25:44 [INFO][_internal] 127.0.0.1 - - [26/Jul/2021 20:25:44] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:14:04 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-28 17:14:04 [INFO][leda_logging] Logger werkzeug created.
+2021-07-28 17:14:04 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-28 17:14:04 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-28 17:14:04 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-28 17:14:04 [INFO][web_service] The web service has been created.
+2021-07-28 17:14:04 [INFO][web_service] Start the web service.
+2021-07-28 17:14:04 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-28 17:14:04 [INFO][_internal]  * Running on http://10.1.1.61:5000/ (Press CTRL+C to quit)
+2021-07-28 17:14:24 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:14:24] "GET / HTTP/1.1" 200 -
+2021-07-28 17:14:24 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:14:24] "GET /static/style/style.css?ver=0.1 HTTP/1.1" 200 -
+2021-07-28 17:14:24 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:14:24] "GET /static/download/sample.py HTTP/1.1" 200 -
+2021-07-28 17:14:24 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:14:24] "GET /static/logo/logo.ico HTTP/1.1" 200 -
+2021-07-28 17:14:25 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:14:25] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-28 17:14:25 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:14:25] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:21:46 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-28 17:21:47 [INFO][web_service] Image file saved: "logs/images/210728172146.jpg".
+2021-07-28 17:21:47 [ERROR][web_service] 500 Internal Server Error: Traceback (most recent call last):
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\web_service.py", line 87, in inference
+    crop_label_position.crop_label(xml_file, image_bytes, "/leda.web-servicices.students/results/")
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\kernel\crop_label_position.py", line 26, in crop_label
+    img = cv2.imread(img_file)
+TypeError: Can't convert object of type 'bytes' to 'str' for 'filename'
+2021-07-28 17:21:47 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:21:47] "[35m[1mPOST /leda/uploading HTTP/1.1[0m" 500 -
+2021-07-28 17:21:47 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:21:47] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:25:39 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:25:39] "GET / HTTP/1.1" 200 -
+2021-07-28 17:25:39 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:25:39] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:25:39 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:25:39] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-28 17:25:40 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:25:40] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-28 17:25:40 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:25:40] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:27:29 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-28 17:27:29 [INFO][leda_logging] Logger werkzeug created.
+2021-07-28 17:27:29 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-28 17:27:29 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-28 17:27:29 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-28 17:27:29 [INFO][web_service] The web service has been created.
+2021-07-28 17:27:29 [INFO][web_service] Start the web service.
+2021-07-28 17:27:29 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-28 17:27:29 [INFO][_internal]  * Running on http://10.1.1.61:5000/ (Press CTRL+C to quit)
+2021-07-28 17:27:33 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:27:33] "GET / HTTP/1.1" 200 -
+2021-07-28 17:27:33 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:27:33] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:27:34 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:27:34] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-28 17:27:35 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:27:35] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-28 17:27:35 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:27:35] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:27:56 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-28 17:27:56 [INFO][web_service] Image file saved: "logs/images/210728172756.jpg".
+2021-07-28 17:27:56 [ERROR][web_service] 500 Internal Server Error: Traceback (most recent call last):
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\web_service.py", line 88, in inference
+    crop_label_position.crop_label(xml_file, image_bytes_1, "/leda.web-servicices.students/results/")
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\kernel\crop_label_position.py", line 25, in crop_label
+    basename = os.path.splitext(os.path.basename(img_file))
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\ntpath.py", line 216, in basename
+    return split(p)[1]
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\ntpath.py", line 185, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not FileStorage
+2021-07-28 17:27:56 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:27:56] "[35m[1mPOST /leda/uploading HTTP/1.1[0m" 500 -
+2021-07-28 17:27:57 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:27:57] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:29:54 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-28 17:29:54 [INFO][web_service] Image file saved: "logs/images/210728172954.jpg".
+2021-07-28 17:29:54 [ERROR][web_service] 500 Internal Server Error: Traceback (most recent call last):
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\web_service.py", line 88, in inference
+    crop_label_position.crop_label(xml_file, image_bytes_1, "/leda.web-servicices.students/results/")
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\kernel\crop_label_position.py", line 25, in crop_label
+    basename = os.path.splitext(os.path.basename(img_file))
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\ntpath.py", line 216, in basename
+    return split(p)[1]
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\ntpath.py", line 185, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not FileStorage
+2021-07-28 17:29:54 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:29:54] "[35m[1mPOST /leda/uploading HTTP/1.1[0m" 500 -
+2021-07-28 17:29:54 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:29:54] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:30:49 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-28 17:30:49 [INFO][leda_logging] Logger werkzeug created.
+2021-07-28 17:30:49 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-28 17:30:49 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-28 17:30:49 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-28 17:30:49 [INFO][web_service] The web service has been created.
+2021-07-28 17:30:49 [INFO][web_service] Start the web service.
+2021-07-28 17:30:50 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-28 17:30:50 [INFO][_internal]  * Running on http://10.1.1.61:5000/ (Press CTRL+C to quit)
+2021-07-28 17:30:54 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:30:54] "GET / HTTP/1.1" 200 -
+2021-07-28 17:30:54 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:30:54] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:30:54 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:30:54] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-28 17:30:55 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:30:55] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-28 17:30:55 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:30:55] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:31:09 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-28 17:31:09 [INFO][web_service] Image file saved: "logs/images/210728173109.jpg".
+2021-07-28 17:31:09 [ERROR][web_service] 500 Internal Server Error: Traceback (most recent call last):
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\web_service.py", line 88, in inference
+    crop_label_position.crop_label(xml_file, image_bytes, "/leda.web-servicices.students/results/")
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\kernel\crop_label_position.py", line 26, in crop_label
+    img = cv2.imread(img_file)
+TypeError: Can't convert object of type 'bytes' to 'str' for 'filename'
+2021-07-28 17:31:09 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:31:09] "[35m[1mPOST /leda/uploading HTTP/1.1[0m" 500 -
+2021-07-28 17:31:09 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:31:09] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:33:25 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-28 17:33:25 [INFO][leda_logging] Logger werkzeug created.
+2021-07-28 17:33:26 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-28 17:33:26 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-28 17:33:26 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-28 17:33:26 [INFO][web_service] The web service has been created.
+2021-07-28 17:33:26 [INFO][web_service] Start the web service.
+2021-07-28 17:33:26 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-28 17:33:26 [INFO][_internal]  * Running on http://10.1.1.61:5000/ (Press CTRL+C to quit)
+2021-07-28 17:33:31 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:33:31] "GET / HTTP/1.1" 200 -
+2021-07-28 17:33:31 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:33:31] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:33:32 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:33:32] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-28 17:33:33 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:33:33] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-28 17:33:33 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:33:33] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:34:10 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-28 17:34:10 [INFO][web_service] Image file saved: "logs/images/210728173410.jpg".
+2021-07-28 17:34:10 [ERROR][web_service] 500 Internal Server Error: Traceback (most recent call last):
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\web_service.py", line 88, in inference
+    crop_label_position.crop_label(xml_file, image_bytes_1, "/leda.web-servicices.students/results/")
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\kernel\crop_label_position.py", line 25, in crop_label
+    basename = os.path.splitext(os.path.basename(img_file))
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\ntpath.py", line 216, in basename
+    return split(p)[1]
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\ntpath.py", line 185, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not FileStorage
+2021-07-28 17:34:10 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:34:10] "[35m[1mPOST /leda/uploading HTTP/1.1[0m" 500 -
+2021-07-28 17:34:10 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:34:10] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:36:15 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-28 17:36:15 [INFO][leda_logging] Logger werkzeug created.
+2021-07-28 17:36:15 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-28 17:36:15 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-28 17:36:15 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-28 17:36:15 [INFO][web_service] The web service has been created.
+2021-07-28 17:36:15 [INFO][web_service] Start the web service.
+2021-07-28 17:36:15 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-28 17:36:15 [INFO][_internal]  * Running on http://10.1.1.61:5000/ (Press CTRL+C to quit)
+2021-07-28 17:36:21 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:36:21] "GET / HTTP/1.1" 200 -
+2021-07-28 17:36:21 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:36:21] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:36:21 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:36:21] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-28 17:36:24 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:36:24] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-28 17:36:24 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:36:24] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:36:32 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-28 17:36:32 [INFO][web_service] Image file saved: "logs/images/210728173632.jpg".
+2021-07-28 17:36:32 [ERROR][web_service] 500 Internal Server Error: Traceback (most recent call last):
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\web_service.py", line 88, in inference
+    crop_label_position.crop_label(xml_file, image_bytes_1, "/leda.web-servicices.students/results/")
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\kernel\crop_label_position.py", line 25, in crop_label
+    basename = os.path.splitext(os.path.basename(img_file))
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\ntpath.py", line 216, in basename
+    return split(p)[1]
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\ntpath.py", line 185, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not FileStorage
+2021-07-28 17:36:32 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:36:32] "[35m[1mPOST /leda/uploading HTTP/1.1[0m" 500 -
+2021-07-28 17:36:32 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:36:32] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:36:57 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-28 17:36:57 [INFO][leda_logging] Logger werkzeug created.
+2021-07-28 17:36:57 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-28 17:36:57 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-28 17:36:57 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-28 17:36:57 [INFO][web_service] The web service has been created.
+2021-07-28 17:36:57 [INFO][web_service] Start the web service.
+2021-07-28 17:36:57 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-28 17:36:57 [INFO][_internal]  * Running on http://10.1.1.61:5000/ (Press CTRL+C to quit)
+2021-07-28 17:37:03 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:37:03] "GET / HTTP/1.1" 200 -
+2021-07-28 17:37:03 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:37:03] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:37:03 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:37:03] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-28 17:37:06 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:37:06] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-28 17:37:06 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:37:06] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:37:15 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-28 17:37:15 [INFO][web_service] Image file saved: "logs/images/210728173715.jpg".
+2021-07-28 17:37:15 [ERROR][web_service] 500 Internal Server Error: Traceback (most recent call last):
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\web_service.py", line 88, in inference
+    crop_label_position.crop_label(xml_file, image_bytes, "/leda.web-servicices.students/results/")
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\kernel\crop_label_position.py", line 27, in crop_label
+    img = cv2.imread(img_file)
+TypeError: Can't convert object of type 'bytes' to 'str' for 'filename'
+2021-07-28 17:37:15 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:37:15] "[35m[1mPOST /leda/uploading HTTP/1.1[0m" 500 -
+2021-07-28 17:37:15 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:37:15] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:38:11 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-28 17:38:11 [INFO][leda_logging] Logger werkzeug created.
+2021-07-28 17:38:11 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-28 17:38:11 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-28 17:38:11 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-28 17:38:11 [INFO][web_service] The web service has been created.
+2021-07-28 17:38:11 [INFO][web_service] Start the web service.
+2021-07-28 17:38:11 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-28 17:38:11 [INFO][_internal]  * Running on http://10.1.1.61:5000/ (Press CTRL+C to quit)
+2021-07-28 17:38:17 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:38:17] "GET / HTTP/1.1" 200 -
+2021-07-28 17:38:17 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:38:17] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:38:17 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:38:17] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-28 17:38:18 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:38:18] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-28 17:38:18 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:38:18] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:38:26 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-28 17:38:26 [INFO][web_service] Image file saved: "logs/images/210728173826.jpg".
+2021-07-28 17:38:26 [ERROR][web_service] 500 Internal Server Error: Traceback (most recent call last):
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\web_service.py", line 88, in inference
+    crop_label_position.crop_label(xml_file, image_bytes, "/leda.web-servicices.students/results/")
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\kernel\crop_label_position.py", line 28, in crop_label
+    img = cv2.imread(img_file)
+TypeError: Can't convert object of type 'bytes' to 'str' for 'filename'
+2021-07-28 17:38:26 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:38:26] "[35m[1mPOST /leda/uploading HTTP/1.1[0m" 500 -
+2021-07-28 17:38:27 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:38:27] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:39:16 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-28 17:39:16 [INFO][leda_logging] Logger werkzeug created.
+2021-07-28 17:39:16 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-28 17:39:16 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-28 17:39:16 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-28 17:39:16 [INFO][web_service] The web service has been created.
+2021-07-28 17:39:16 [INFO][web_service] Start the web service.
+2021-07-28 17:39:16 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-28 17:39:16 [INFO][_internal]  * Running on http://10.1.1.61:5000/ (Press CTRL+C to quit)
+2021-07-28 17:39:21 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:39:21] "GET / HTTP/1.1" 200 -
+2021-07-28 17:39:21 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:39:21] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:39:22 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:39:22] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-28 17:39:23 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:39:23] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-28 17:39:23 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:39:23] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:39:31 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-28 17:39:31 [INFO][web_service] Image file saved: "logs/images/210728173931.jpg".
+2021-07-28 17:39:31 [ERROR][web_service] 500 Internal Server Error: Traceback (most recent call last):
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\web_service.py", line 88, in inference
+    crop_label_position.crop_label(xml_file, image_bytes, "/leda.web-servicices.students/results/")
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\kernel\crop_label_position.py", line 28, in crop_label
+    img = cv2.imread(img_file)
+TypeError: Can't convert object of type 'bytes' to 'str' for 'filename'
+2021-07-28 17:39:31 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:39:31] "[35m[1mPOST /leda/uploading HTTP/1.1[0m" 500 -
+2021-07-28 17:39:31 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:39:31] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:40:12 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-28 17:40:12 [INFO][leda_logging] Logger werkzeug created.
+2021-07-28 17:40:12 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-28 17:40:12 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-28 17:40:12 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-28 17:40:12 [INFO][web_service] The web service has been created.
+2021-07-28 17:40:12 [INFO][web_service] Start the web service.
+2021-07-28 17:40:12 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-28 17:40:12 [INFO][_internal]  * Running on http://10.1.1.61:5000/ (Press CTRL+C to quit)
+2021-07-28 17:40:17 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:40:17] "GET / HTTP/1.1" 200 -
+2021-07-28 17:40:17 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:40:17] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:40:17 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:40:17] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-28 17:40:19 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:40:19] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-28 17:40:19 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:40:19] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:40:30 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-28 17:40:30 [INFO][web_service] Image file saved: "logs/images/210728174030.jpg".
+2021-07-28 17:40:30 [ERROR][web_service] 500 Internal Server Error: Traceback (most recent call last):
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\web_service.py", line 88, in inference
+    crop_label_position.crop_label(xml_file, image_bytes_1, "/leda.web-servicices.students/results/")
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\kernel\crop_label_position.py", line 27, in crop_label
+    basename = os.path.splitext(os.path.basename(img_file))
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\ntpath.py", line 216, in basename
+    return split(p)[1]
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\ntpath.py", line 185, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not FileStorage
+2021-07-28 17:40:30 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:40:30] "[35m[1mPOST /leda/uploading HTTP/1.1[0m" 500 -
+2021-07-28 17:40:30 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:40:30] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:41:57 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-28 17:41:57 [INFO][leda_logging] Logger werkzeug created.
+2021-07-28 17:41:57 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-28 17:41:57 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-28 17:41:57 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-28 17:41:57 [INFO][web_service] The web service has been created.
+2021-07-28 17:41:57 [INFO][web_service] Start the web service.
+2021-07-28 17:41:57 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-28 17:41:57 [INFO][_internal]  * Running on http://10.1.1.61:5000/ (Press CTRL+C to quit)
+2021-07-28 17:42:03 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:42:03] "GET / HTTP/1.1" 200 -
+2021-07-28 17:42:03 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:42:03] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:42:03 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:42:03] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-28 17:42:04 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:42:04] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-28 17:42:04 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:42:04] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:42:12 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-28 17:42:12 [INFO][web_service] Delete old log file: "logs/images/210728172146.jpg".
+2021-07-28 17:42:12 [INFO][web_service] Image file saved: "logs/images/210728174212.jpg".
+2021-07-28 17:42:12 [ERROR][web_service] 500 Internal Server Error: Traceback (most recent call last):
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\web_service.py", line 90, in inference
+    image_result_np=crop_label_position.bboxes['image'].copy()
+AttributeError: module 'leda.kernel.crop_label_position' has no attribute 'bboxes'
+2021-07-28 17:42:12 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:42:12] "[35m[1mPOST /leda/uploading HTTP/1.1[0m" 500 -
+2021-07-28 17:42:13 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:42:13] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:48:13 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-28 17:48:13 [INFO][leda_logging] Logger werkzeug created.
+2021-07-28 17:48:13 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-28 17:48:13 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-28 17:48:13 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-28 17:48:13 [INFO][web_service] The web service has been created.
+2021-07-28 17:48:13 [INFO][web_service] Start the web service.
+2021-07-28 17:48:13 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-28 17:48:13 [INFO][_internal]  * Running on http://10.1.1.61:5000/ (Press CTRL+C to quit)
+2021-07-28 17:48:18 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:48:18] "GET / HTTP/1.1" 200 -
+2021-07-28 17:48:18 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:48:18] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:48:18 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:48:18] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-28 17:48:20 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:48:20] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-28 17:48:20 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:48:20] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:48:27 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-28 17:48:27 [INFO][web_service] Delete old log file: "logs/images/210728172756.jpg".
+2021-07-28 17:48:27 [INFO][web_service] Image file saved: "logs/images/210728174827.jpg".
+2021-07-28 17:48:27 [ERROR][web_service] 500 Internal Server Error: Traceback (most recent call last):
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\web_service.py", line 95, in inference
+    self._log_result(image_result_np, timestamp)
+NameError: name 'image_result_np' is not defined
+2021-07-28 17:48:27 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:48:27] "[35m[1mPOST /leda/uploading HTTP/1.1[0m" 500 -
+2021-07-28 17:48:28 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:48:28] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:50:03 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-28 17:50:03 [INFO][leda_logging] Logger werkzeug created.
+2021-07-28 17:50:03 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-28 17:50:03 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-28 17:50:03 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-28 17:50:03 [INFO][web_service] The web service has been created.
+2021-07-28 17:50:03 [INFO][web_service] Start the web service.
+2021-07-28 17:50:03 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-28 17:50:03 [INFO][_internal]  * Running on http://10.1.1.61:5000/ (Press CTRL+C to quit)
+2021-07-28 17:50:07 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:50:07] "GET / HTTP/1.1" 200 -
+2021-07-28 17:50:07 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:50:07] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:50:07 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:50:07] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-28 17:50:09 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:50:09] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-28 17:50:09 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:50:09] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:50:37 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-28 17:50:37 [INFO][leda_logging] Logger werkzeug created.
+2021-07-28 17:50:37 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-28 17:50:37 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-28 17:50:37 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-28 17:50:37 [INFO][web_service] The web service has been created.
+2021-07-28 17:50:37 [INFO][web_service] Start the web service.
+2021-07-28 17:50:37 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-28 17:50:37 [INFO][_internal]  * Running on http://10.1.1.61:5000/ (Press CTRL+C to quit)
+2021-07-28 17:50:44 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:50:44] "GET / HTTP/1.1" 200 -
+2021-07-28 17:50:44 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:50:44] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:50:44 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:50:44] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-28 17:50:45 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:50:45] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-28 17:50:45 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:50:45] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:50:53 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-28 17:50:53 [INFO][web_service] Delete old log file: "logs/images/210728172954.jpg".
+2021-07-28 17:50:53 [INFO][web_service] Image file saved: "logs/images/210728175053.jpg".
+2021-07-28 17:50:53 [ERROR][web_service] 500 Internal Server Error: Traceback (most recent call last):
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\web_service.py", line 91, in inference
+    image_result_np = bboxes['image'].copy()
+TypeError: list indices must be integers or slices, not str
+2021-07-28 17:50:53 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:50:53] "[35m[1mPOST /leda/uploading HTTP/1.1[0m" 500 -
+2021-07-28 17:50:53 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:50:53] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:53:23 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-28 17:53:23 [INFO][leda_logging] Logger werkzeug created.
+2021-07-28 17:53:23 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-28 17:53:23 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-28 17:53:23 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-28 17:53:23 [INFO][web_service] The web service has been created.
+2021-07-28 17:53:23 [INFO][web_service] Start the web service.
+2021-07-28 17:53:23 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-28 17:53:23 [INFO][_internal]  * Running on http://10.1.1.61:5000/ (Press CTRL+C to quit)
+2021-07-28 17:53:29 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:53:29] "GET / HTTP/1.1" 200 -
+2021-07-28 17:53:29 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:53:29] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:53:30 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:53:30] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-28 17:53:31 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:53:31] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-28 17:53:31 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:53:31] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:53:40 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-28 17:53:40 [INFO][web_service] Delete old log file: "logs/images/210728173109.jpg".
+2021-07-28 17:53:40 [INFO][web_service] Image file saved: "logs/images/210728175340.jpg".
+2021-07-28 17:53:40 [INFO][web_service] Image file saved: "logs/results/210728175340.jpg".
+2021-07-28 17:53:40 [INFO][web_service] The results of "210728175340.jpg" are ["successfully", "called", "the", "kernel"]
+2021-07-28 17:53:40 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210725175803a.jpg".
+2021-07-28 17:53:40 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210725175803b.jpg".
+2021-07-28 17:53:40 [INFO][web_service] Image file saved: "leda/pages/static/temp/210728175340a.jpg".
+2021-07-28 17:53:40 [INFO][web_service] Image file saved: "leda/pages/static/temp/210728175340b.jpg".
+2021-07-28 17:53:40 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:53:40] "POST /leda/uploading HTTP/1.1" 200 -
+2021-07-28 17:53:40 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:53:40] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:53:40 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:53:40] "GET /static/temp/210728175340a.jpg HTTP/1.1" 200 -
+2021-07-28 17:53:40 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:53:40] "GET /static/temp/210728175340b.jpg HTTP/1.1" 200 -
+2021-07-28 17:58:52 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-28 17:58:52 [INFO][leda_logging] Logger werkzeug created.
+2021-07-28 17:58:52 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-28 17:58:52 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-28 17:58:52 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-28 17:58:52 [INFO][web_service] The web service has been created.
+2021-07-28 17:58:52 [INFO][web_service] Start the web service.
+2021-07-28 17:58:52 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-28 17:58:52 [INFO][_internal]  * Running on http://10.1.1.61:5000/ (Press CTRL+C to quit)
+2021-07-28 17:59:00 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:59:00] "GET / HTTP/1.1" 200 -
+2021-07-28 17:59:00 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:59:00] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:59:00 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:59:00] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-28 17:59:01 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:59:01] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-28 17:59:01 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:59:01] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:59:09 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-28 17:59:09 [INFO][web_service] Delete old log file: "logs/images/210728173410.jpg".
+2021-07-28 17:59:09 [INFO][web_service] Image file saved: "logs/images/210728175909.jpg".
+2021-07-28 17:59:09 [INFO][web_service] Image file saved: "logs/results/210728175909.jpg".
+2021-07-28 17:59:09 [INFO][web_service] The results of "210728175909.jpg" are ["successfully", "called", "the", "kernel"]
+2021-07-28 17:59:09 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210728175340a.jpg".
+2021-07-28 17:59:09 [INFO][web_service] Delete old log file: "leda/pages/static/temp/210728175340b.jpg".
+2021-07-28 17:59:09 [INFO][web_service] Image file saved: "leda/pages/static/temp/210728175909a.jpg".
+2021-07-28 17:59:09 [INFO][web_service] Image file saved: "leda/pages/static/temp/210728175909b.jpg".
+2021-07-28 17:59:09 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:59:09] "POST /leda/uploading HTTP/1.1" 200 -
+2021-07-28 17:59:09 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:59:09] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-28 17:59:10 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:59:10] "GET /static/temp/210728175909a.jpg HTTP/1.1" 200 -
+2021-07-28 17:59:10 [INFO][_internal] 127.0.0.1 - - [28/Jul/2021 17:59:10] "GET /static/temp/210728175909b.jpg HTTP/1.1" 200 -
+2021-07-29 19:55:06 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-29 19:55:06 [INFO][leda_logging] Logger werkzeug created.
+2021-07-29 19:55:06 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-29 19:55:06 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-29 19:55:06 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-29 19:55:06 [INFO][web_service] The web service has been created.
+2021-07-29 19:55:06 [INFO][web_service] Start the web service.
+2021-07-29 19:55:06 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-29 19:55:06 [INFO][_internal]  * Running on http://10.1.1.61:5000/ (Press CTRL+C to quit)
+2021-07-29 19:55:12 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 19:55:12] "GET / HTTP/1.1" 200 -
+2021-07-29 19:55:12 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 19:55:12] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-29 19:55:12 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 19:55:12] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-29 19:55:13 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 19:55:13] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-29 19:55:13 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 19:55:13] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-29 19:55:27 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-29 19:55:27 [INFO][web_service] Delete old log file: "logs/images/210728173632.jpg".
+2021-07-29 19:55:27 [INFO][web_service] Image file saved: "logs/images/210729195527.jpg".
+2021-07-29 19:55:27 [INFO][web_service] Image file saved: "leda/pages/static/temp/10_CCD1_Fail_1.jpeg".
+2021-07-29 19:55:27 [ERROR][web_service] 500 Internal Server Error: Traceback (most recent call last):
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\web_service.py", line 92, in inference
+    self._save_image(image_np , os.path.join(self._temp_images_directory,upload_file_root_xml))#¦s¨ìtemp¸ê®Æ§¨
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\web_service.py", line 193, in _save_image
+    cv2.imwrite(file_name, image_np)
+cv2.error: OpenCV(4.5.2) C:\Users\runneradmin\AppData\Local\Temp\pip-req-build-_8k9tw8n\opencv\modules\imgcodecs\src\loadsave.cpp:650: error: (-2:Unspecified error) could not find a writer for the specified extension in function 'cv::imwrite_'
+
+2021-07-29 19:55:27 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 19:55:27] "[35m[1mPOST /leda/uploading HTTP/1.1[0m" 500 -
+2021-07-29 19:55:27 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 19:55:27] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-29 20:01:01 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-29 20:01:01 [INFO][leda_logging] Logger werkzeug created.
+2021-07-29 20:01:01 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-29 20:01:01 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-29 20:01:01 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-29 20:01:01 [INFO][web_service] The web service has been created.
+2021-07-29 20:01:01 [INFO][web_service] Start the web service.
+2021-07-29 20:01:01 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-29 20:01:01 [INFO][_internal]  * Running on http://10.1.1.61:5000/ (Press CTRL+C to quit)
+2021-07-29 20:01:06 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 20:01:06] "GET / HTTP/1.1" 200 -
+2021-07-29 20:01:06 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 20:01:06] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-29 20:01:06 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 20:01:06] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-29 20:01:08 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 20:01:08] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-29 20:01:08 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 20:01:08] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-29 20:01:16 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-29 20:01:16 [INFO][web_service] Delete old log file: "logs/images/210728173715.jpg".
+2021-07-29 20:01:16 [INFO][web_service] Image file saved: "logs/images/210729200116.jpg".
+2021-07-29 20:01:16 [INFO][web_service] Image file saved: "leda/pages/static/temp/10_CCD1_Fail_1.jpeg".
+2021-07-29 20:01:16 [ERROR][web_service] 500 Internal Server Error: Traceback (most recent call last):
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\web_service.py", line 95, in inference
+    bboxes, labels = crop_label_position.crop_label(xml_file_root, image_file_root, output_file_root)
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\kernel\crop_label_position.py", line 30, in crop_label
+    dom = xml.dom.minidom.parse(xml_file)
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\xml\dom\minidom.py", line 1959, in parse
+    return expatbuilder.parse(file)
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\xml\dom\expatbuilder.py", line 910, in parse
+    with open(file, 'rb') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'leda/pages/static/temp/10_CCD1_Fail_1.xml'
+2021-07-29 20:01:16 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 20:01:16] "[35m[1mPOST /leda/uploading HTTP/1.1[0m" 500 -
+2021-07-29 20:01:16 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 20:01:16] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-29 20:15:22 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-29 20:15:22 [INFO][leda_logging] Logger werkzeug created.
+2021-07-29 20:15:22 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-29 20:15:22 [INFO][web_service] Log image will be saved in "logs\images"
+2021-07-29 20:15:22 [INFO][web_service] Configurations: {'port': 5000, 'allowed_image_extensions': '.jpeg,.jpg,.png', 'log_level': 'DEBUG', 'log_stream': True, 'log_files_name': 'logs/logs/app.log', 'log_files_count': 10, 'log_images_directory': 'logs/images/', 'log_images_count': 10, 'log_images_extension': 'jpg', 'log_results_directory': 'logs/results/', 'log_results_count': 10}
+2021-07-29 20:15:22 [INFO][web_service] The web service has been created.
+2021-07-29 20:15:22 [INFO][web_service] Start the web service.
+2021-07-29 20:15:22 [WARNING][_internal]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-29 20:15:22 [INFO][_internal]  * Running on http://10.1.1.61:5000/ (Press CTRL+C to quit)
+2021-07-29 20:15:25 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 20:15:25] "GET / HTTP/1.1" 200 -
+2021-07-29 20:15:25 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 20:15:25] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-29 20:15:25 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 20:15:25] "[36mGET /static/download/sample.py HTTP/1.1[0m" 304 -
+2021-07-29 20:15:26 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 20:15:26] "GET /leda/uploading HTTP/1.1" 200 -
+2021-07-29 20:15:26 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 20:15:26] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-29 20:15:34 [INFO][web_service] CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('api_key', '000000000000'), ('submit', '¤W¶Ç')])])
+2021-07-29 20:15:34 [INFO][web_service] Delete old log file: "logs/images/210728173826.jpg".
+2021-07-29 20:15:34 [INFO][web_service] Image file saved: "logs/images/210729201534.jpg".
+2021-07-29 20:15:34 [INFO][web_service] Image file saved: "leda/pages/static/temp/10_CCD1_Fail_1.jpeg".
+2021-07-29 20:15:34 [ERROR][web_service] 500 Internal Server Error: Traceback (most recent call last):
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Leda\Leda-annie\leda.web-service.students\leda\web_service.py", line 91, in inference
+    np.save(self._temp_images_directory +str(input_root_xml)+".xml",input_root_xml)
+  File "<__array_function__ internals>", line 5, in save
+  File "C:\Users\Admin\anaconda3\envs\py38\lib\site-packages\numpy\lib\npyio.py", line 525, in save
+    file_ctx = open(file, "wb")
+OSError: [Errno 22] Invalid argument: "leda/pages/static/temp/<FileStorage: '10_CCD1_Fail_1.xml' ('text/xml')>.xml.npy"
+2021-07-29 20:15:34 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 20:15:34] "[35m[1mPOST /leda/uploading HTTP/1.1[0m" 500 -
+2021-07-29 20:15:34 [INFO][_internal] 127.0.0.1 - - [29/Jul/2021 20:15:34] "[36mGET /static/style/style.css?ver=0.1 HTTP/1.1[0m" 304 -
+2021-07-29 20:32:18 [INFO][leda_logging] Logger leda.web_service created.
+2021-07-29 20:32:18 [INFO][leda_logging] Logger werkzeug created.
+2021-07-29 20:32:18 [INFO][web_service] Log will be saved in "logs\logs"
+2021-07-29 20:32:18 [INFO][web_service] Log image will be saved in "logs\images"

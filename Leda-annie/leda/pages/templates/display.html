@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>檢視辨識結果 - 樂達創意科技</title>
+		<link rel="icon" href="{{url_for('static', filename='logo/logo.ico')}}" type="image/x-icon">
+		<link rel="stylesheet" href="{{url_for('static', filename='style/style.css')}}?ver=0.1">
+	</head>
+	<body>
+		<h1>檢視辨識結果</h1>
+		<img src="{{url_for('static', filename='temp/')}}{{ image_original_file_name }}" alt="The uploaded image." width="{{ image_width }}">
+		<img src="{{url_for('static', filename='temp/')}}{{ image_inferenced_file_name }}" alt="The inferenced image." width="{{ image_width }}">
+		<p>結果：{{results}}</p>
+		<a href="javascript:history.back()"><button>返回</button></a>
+		<a href="/"><button>前往首頁</button></a>
+	</body>
+</html>
+

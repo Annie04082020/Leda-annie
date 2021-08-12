@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>上傳測試圖片 - 樂達創意科技</title>
+		<link rel="icon" href="{{url_for('static', filename='logo/logo.ico')}}" type="image/x-icon">
+		<link rel="stylesheet" href="{{url_for('static', filename='style/style.css')}}?ver=0.1">
+	</head>
+	<body>
+		<h1>上傳測試圖片</h1>
+		<form action="/leda/uploading" method="post" enctype=multipart/form-data>
+			<input type="hidden" name="api_key" value="000000000000">
+			<input type="file" name="image" accept="{{ allowed_image_extensions }},|image/*">
+			<input type="file" name="xml"accept="text/xml">
+			<input type="submit" name="submit" value="上傳">
+		</form>
+	</body>
+</html>
+
